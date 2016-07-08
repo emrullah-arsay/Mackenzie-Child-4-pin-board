@@ -48,5 +48,6 @@ group :development do
   gem 'simple_form', '~> 3.2', '>= 3.2.1'
   gem 'devise', '~> 4.2'
   gem 'paperclip', '~> 5.0'
+  gem 'masonry-rails', '~> 0.2.4'
 end
 
