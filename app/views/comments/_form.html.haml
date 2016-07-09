@@ -1,0 +1,12 @@
+= simple_form_for ([@pin, @pin.comments.build]) do |f|
+	.form-group
+		=f.label :name
+		
+		=f.text_field  :name
+	.form-group
+		=f.label :body 
+		=f.text_area  :body 
+	
+	%br/
+	.form-actions
+		=f.submit 
